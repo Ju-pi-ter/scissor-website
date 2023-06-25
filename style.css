@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1446px;
+  padding: 10px;
+}
+
+
+@font-face {
+  font-family: Gilory-medium;
+  src: url(fonts/Gilroy-Medium.woff);
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(fonts/Gilroy-Bold.woff)
+}
+
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url(fonts/Gilroy-Semibold.woff)
+}
+
+header {
+  font-family: Gilory-medium;
+  font-size: 18px;
+  line-height: 21.09px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 1150px;
+  justify-content: space-between;
+  padding-left: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue {
+  color: #0065FE;
+}
+
+.offers {
+  display: flex;
+  gap: 40px;
+}
+
+.account {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.drop {
+  display: flex;
+}
+
+.try-btn {
+  border-radius: 100px;
+  width: 142px;
+  height: 44px;
+  background: #0065FE;
+  color: #FFFFFF;
+  Padding: 12px 24px 12px 24px;
+  font-size: 16px;
+
+}
+
+.opti-sec {
+  width: 948px;
+  height: 313px;
+  margin: 60px auto;
+}
+
+
+.optimize {
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  line-height: 96px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.UrlSpan {
+  position: relative;
+  color: #0065FE;
+}
+
+.vec3 {
+  position: absolute;
+  top: 50px;
+  left: 88px;
+}
+
+.personalize {
+  margin-top: 15px;
+  font-family: Gilory-medium;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.signSec {
+  font-family: Gilroy-Semibold;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+}
+
+.signUp {
+  width: 142px;
+  height: 44px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background: #0065FE;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
+
+.seamSec {
+  width: 768px;
+  height: 224px;
+  padding: 40px 60px 40px 60px;
+  border-radius: 24px;
+  border: solid #005AE2 0.5px;
+  background: linear-gradient(65deg, rgba(226, 233, 240), rgba(226, 233, 240), rgba(226, 233, 240), rgba(226, 233, 240, 0.1), rgba(226, 233, 240, 0.1), rgba(226, 233, 240, 0.1), rgba(226, 233, 240, 0.1));
+  margin: auto;
+  margin-top: 60px;
+  position: relative;
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.seamText {
+  text-align: center;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.vec2 {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  z-index: -5;
+
+}
+
+.eli-rec {
+  margin-top: 420px;
+  width: 1440px;
+  height: 93px;
+  position: relative;
+  z-index: -3;
+}
+
+.ellipse {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+}
+
+.oneSec {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+
+.oneText {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: left;
+
+}
+
+.otherOneSec {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+}
+
+.M-sec {
+  font-family: Gilroy-SemiBold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: left;
+
+}
+
+.M-span {
+  font-family: Gilory-medium;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.why-sec {
+  width: 1202.1px;
+  height: 504px;
+  gap: 96px;
+  background: yellow;
+  margin: auto;
+  display: flex;
+
+}
+
+.sec1 {
+  width: 398.1px;
+  height: 256px;
+  background: red;
+}
+
+.sec2 {
+  width: 708px;
+  height: 504px;
+  background: black;
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nes1 {
+  width: 708px;
+  height: 220px;
+  background: green;
+}
+
+.nesNes {
+  width: 30px;
+  height: 220px;
+  display: flex;
+  background: blue;
+
+
+
+}
