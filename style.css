@@ -98,12 +98,16 @@ a {
 }
 
 .personalize {
+  margin: 0 auto;
   margin-top: 15px;
   font-family: Gilory-medium;
   font-size: 18px;
   line-height: 28px;
   text-align: center;
   font-weight: lighter;
+  width: 781px;
+  height: 105px;
+
 }
 
 .signSec {
@@ -317,19 +321,21 @@ height: 108px;
 margin: auto;
 position: relative;
 margin-bottom: 100px;
+
 }
 
 .pp-heading {
 font-family: Gilroy-Bold;
 font-size: 40px;
 line-height: 48px;
+margin-left: 15px;
+margin-bottom: 5px;
+padding-left: 0px;
 text-align: center;
-padding-left: 16px;
 }
 
 .pp-body {
 padding-left: 16px;
-margin-top: 5px;
 font-family: Gilory-medium;
 font-size: 16px;
 line-height: 24px;
@@ -667,4 +673,199 @@ padding-bottom: 16px;
 .FAQ-vec2 {
  right: 0px;
  bottom: 0px;
+}
+
+.rev-box {
+width: 1440px;
+height: 299px;
+background:  rgba(30, 52, 72, 1);
+position: relative;
+overflow: hidden;
+margin: 0 auto;
+}
+
+.rev-vector1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.rev-vector2 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.rev-text-btn-box {
+width: 806px;
+height: 137px;
+gap: 32px;
+display: flex;
+flex-direction: column;
+margin: auto;
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+position: relative;
+}
+
+.rev-text-btn-box p {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.get-started-btn {
+outline: none;
+border: none;
+width: 200px;
+height: 48px;
+padding: 12px 24px;
+border-radius: 100px;
+text-align: center;
+font-size: 16px;
+line-height: 12px;
+color: #ffffff;
+background: #005AE2;
+font-family: Gilroy-SemiBold;
+
+}
+
+footer{
+  position: relative;
+  width: 1440px;
+  height: 561px;
+  padding-top: 100px;
+  
+    
+}
+
+.footer-vec1 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.footer-vec2 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.footer-box {
+  display: flex;
+  margin: auto;
+  gap: 14px;
+  width: 1010px;
+  height: 384px;
+}
+
+.logo-socials {
+  width:  184px;
+  height: 96px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+li {
+   list-style-type: none;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.footer-body {
+margin-top: 2px;
+margin-bottom: 2px;
+width: 812px;
+height: 384px;
+display: flex;
+justify-content: space-around;
+}
+
+.column {
+display: flex;
+flex-direction: column;
+gap: 32px;
+
+}
+.nested-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-1 {
+  justify-content: space-between;
+}
+
+.col-2 {
+  gap: 46px;
+}
+
+.col-3 {
+  gap: 70px;
+}
+
+.column h4 {
+font-family: Gilroy-Bold;
+text-align: left;
+font-size: 16px;
+line-height: 24px;
+}
+
+.column ul {
+  font-family: Gilory-medium;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.copy-right {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  right: 128px;
+  font-family: Gilory-medium;
+  font-size: 14px;
+  line-height: 20px;
+  width: 296px;
+  height: 20px;
+  justify-content: space-around;
+  
+
+}
+
+.security-border1 {
+  position: relative;
+}
+
+.security-border2 {
+  position: relative;
+}
+
+.security-border1 hr {
+right : -16px;
+
+}
+
+.security-border2 hr {
+left : -16px;
+
+}
+
+hr {
+  transform: rotate(90deg);
+  width: 12px;
+  border: 1px solid #112232;
+  background: #112232;
+  position: absolute;
+  top: 8px;
+  
 }
